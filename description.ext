@@ -1,0 +1,30 @@
+onLoadName = "Op White Board";
+author = "WO1 T. Johnson 15APR2016";
+onLoadMission = "A Peaceful Country To Destroy";
+loadScreen = "x\alive\addons\missions\logo_alive.paa";
+onLoadIntroTime = true;
+onLoadMissionTime = true;
+
+briefing = 1;
+debriefing = 1;
+disabledAI = 1;
+enableDebugConsole = 1;
+allowFunctionsRecompile = 1;
+
+respawn = "BASE";
+respawnDelay = 10;
+RespawnDialog = 1;
+
+class header {
+	gametype = COOP;
+	minplayers = 1;
+	maxplayers = 65;
+	playerCountMultipleOf = 1;  //Coop type missions use 1, Team type missions use 2
+};
+
+class CfgFunctions {
+	#include "VAS\cfgfunctions.hpp"	
+};
+
+
+
