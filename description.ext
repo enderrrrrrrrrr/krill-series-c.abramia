@@ -22,9 +22,9 @@ class header {
 	playerCountMultipleOf = 1;  //Coop type missions use 1, Team type missions use 2
 };
 
-class CfgFunctions {
-	#include "VAS\cfgfunctions.hpp"	
-};
+//class CfgFunctions {
+//	#include "VAS\cfgfunctions.hpp"	
+//};
 
 
 
